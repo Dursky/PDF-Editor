@@ -1,0 +1,51 @@
+/node_modules
+.DS_Store
+
+# Xcode
+DerivedData/                 
+*.xcworkspace                
+xcuserdata/                 
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/     
+*.xcodeproj/project.xcworkspace/xcuserdata/ 
+
+# Build artifacts
+build/                       
+ios/Pods                     
+
+
+# CocoaPods
+/ios/Podfile.lock             
+
+# Xcode-specific files
+*.xccheckout                  
+*.moved-aside                
+*.xcuserstate                
+
+# Logs
+*.log                         
+*.out                        
+*.xcactivitylog              
+
+# Swift Package Manager
+.build/                     
+swiftpm/                    
+*.swiftpm/xcode/             
+
+# CoreSimulator
+ios/Library/Developer/CoreSimulator/ # Simulator files (generated automatically)
+
+# Symbolicated files
+*.dSYM                        
+
+# App binary files
+*.ipa                         
+*.app                        
+*.mobileprovision           
+
+# Testing-related files
+*.hmap                       
+*.ipa                        
+
+# Configuration-related files
+*.xcfilelist                 
